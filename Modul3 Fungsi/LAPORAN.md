@@ -45,6 +45,7 @@ func main() {
     }
 }
 ```
+
 ![](1.png)
 
 Penjelasan :
@@ -84,6 +85,7 @@ func main() {
     fmt.Print(fogoh, "\n", gohof, "\n", hofog, "\n")
 }
 ```
+
 ![](2.png)
 
 Penjelasan : 
@@ -132,6 +134,7 @@ func main() {
     }
 }
 ```
+
 ![](3.png)
 
 Penjelasan :
