@@ -45,7 +45,7 @@ func main() {
     }
 }
 ```
-![(1.png)]
+![](1.png)
 
 Penjelasan :
 Program Go di atas menghitung permutasi dan kombinasi dari dua pasang bilangan yang dimasukkan oleh pengguna. Fungsi factorial menghitung nilai faktorial dari bilangan bulat positif menggunakan perulangan. Fungsi permutation menghitung jumlah susunan berbeda dari r elemen yang diambil dari n elemen dengan rumus P(n, r) = n! / (n - r)!, sedangkan fungsi combination menghitung jumlah cara memilih r elemen dari n elemen tanpa memperhatikan urutan dengan rumus C(n, r) = n! / (r! × (n - r)!). Pada fungsi main, program membaca empat bilangan bulat a, b, c, dan d dari input pengguna, lalu memeriksa apakah a ≥ c dan b ≥ d. Jika syarat tersebut terpenuhi, program menampilkan hasil perhitungan permutasi dan kombinasi untuk pasangan (a, c) dan (b, d) secara terpisah.
@@ -84,7 +84,7 @@ func main() {
     fmt.Print(fogoh, "\n", gohof, "\n", hofog, "\n")
 }
 ```
-![(2.png)]
+![](2.png)
 
 Penjelasan : 
 Program Go di atas menghitung hasil komposisi dari tiga fungsi, yaitu f(x), g(x), dan h(x), yang masing-masing memiliki operasi sederhana. Fungsi f(x) menghitung kuadrat dari x, g(x) mengurangkan 2 dari x, dan h(x) menambahkan 1 ke x. Pada fungsi main, program membaca tiga bilangan bulat a, b, dan c dari input pengguna, lalu menghitung tiga komposisi fungsi: f(g(h(a))), g(h(f(b))), dan h(f(g(c))). Hasil dari masing-masing komposisi dicetak dalam baris terpisah.
@@ -132,7 +132,7 @@ func main() {
     }
 }
 ```
-![(3.png)]
+![](3.png)
 
 Penjelasan :
 Program Go di atas buat ngecek posisi sebuah titik terhadap dua lingkaran. Fungsi **jarak** dipakai buat ngitung jarak antara dua titik di bidang kartesian, sedangkan fungsi **didalam** ngecek apakah titik (x, y) ada di dalam atau pas di tepi lingkaran dengan pusat (cx, cy) dan jari-jari r. Di fungsi **main**, program bakal baca input untuk pusat dan jari-jari dua lingkaran, plus koordinat titik yang mau dicek. Setelah itu, dicek deh apakah titiknya ada di dalam lingkaran pertama, kedua, atau malah di luar keduanya, terus hasilnya ditampilin sesuai kondisi.
