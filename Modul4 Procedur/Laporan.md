@@ -51,6 +51,7 @@ func main() {
 ```
 
 ![](output/1.png)
+
 Penjelasan :
 Program di atas adalah implementasi dalam bahasa Go untuk menghitung permutasi dan kombinasi dari dua pasang bilangan. Program ini memiliki tiga fungsi utama: permutation, combination, dan factorial. Fungsi factorial bertugas menghitung nilai faktorial dari suatu bilangan dengan menggunakan perulangan dari 1 hingga bilangan tersebut, lalu menyimpan hasilnya di variabel yang diakses melalui pointer. Fungsi permutation menggunakan fungsi factorial untuk menghitung permutasi dari dua bilangan n dan r dengan rumus P(n, r) = n! / (n - r)!, sedangkan fungsi combination menghitung kombinasi dengan rumus C(n, r) = n! / (r! × (n - r)!). Pada fungsi main, program membaca empat bilangan bulat dari input pengguna, yaitu a, b, c, dan d. Setelah itu, program memeriksa apakah a ≥ c dan b ≥ d untuk memastikan bahwa operasi permutasi dan kombinasi valid. Jika kondisi tersebut terpenuhi, program menghitung permutasi dan kombinasi untuk pasangan (a, c) serta (b, d), kemudian mencetak hasilnya secara berpasangan di dua baris yang berbeda. Jika kondisi tidak terpenuhi, program mencetak pesan "Input tidak valid". Program ini memanfaatkan pointer untuk mengakses dan memodifikasi nilai secara langsung, yang memungkinkan penggunaan memori yang lebih efisien.
 
