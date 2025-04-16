@@ -58,9 +58,12 @@ func main() {
 }
 ```
 ![](output/1.png)
+
 Penjelasan :
 Program ini adalah program yang digunakan untuk mengecek apakah sebuah titik berada di dalam dua buah lingkaran atau tidak. Di awal, program mendefinisikan tipe data untuk titik dan lingkaran, lalu ada fungsi `jarak` buat ngitung jarak antara dua titik pakai rumus matematika. Kemudian ada fungsi `didalam` buat ngecek apakah jarak titik ke pusat lingkaran lebih kecil atau sama dengan radius lingkarannya. Setelah itu di bagian utama, pengguna diminta memasukkan koordinat dan radius dari dua lingkaran, serta titik yang ingin dicek. Program lalu menentukan posisi titik itu, apakah masuk ke salah satu, kedua, atau tidak masuk ke lingkaran manapun.
+
 ### Soal 2
+
 ```go
 package main
 
@@ -172,9 +175,12 @@ func main() {
 }
 ```
 ![](output/2.png)
+
 Penjelasan :
 Program ini adalah program yang dibuat untuk mengelola dan menganalisis data dalam bentuk array. Pertama-tama, user diminta buat masukin jumlah elemen dan datanya satu per satu. Program ini punya banyak fitur, seperti membagi array berdasarkan indeks genap dan ganjil, menampilkan elemen pada indeks kelipatan tertentu, menghapus elemen di indeks tertentu, lalu menghitung rata-rata dan simpangan baku dari datanya. Selain itu, ada juga fitur untuk mencari frekuensi kemunculan sebuah angka dalam array. 
+
 ### Soal 3
+
 ```go
 package main
 
@@ -219,9 +225,12 @@ func main() {
 }
 ```
 ![](output/3.png)
+
 Penjelasan :
 Program ini adalah program untuk mencatat hasil pertandingan antara dua klub bola. Di awal program, pengguna diminta untuk memasukkan nama dua klub. Lalu secara berulang, user bisa input skor pertandingan mereka. Setiap skor akan langsung diproses untuk menentukan siapa pemenangnya atau kalau draw. Program terus berjalan sampai user memasukkan input yang tidak valid atau skor negatif, lalu menampilkan semua hasil pertandingan yang udah dicatat sebelumnya. 
+
 ### Soal 4
+
 ```go
 package main
 
