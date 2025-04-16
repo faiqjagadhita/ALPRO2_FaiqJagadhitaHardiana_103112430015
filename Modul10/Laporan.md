@@ -37,6 +37,7 @@ func main() {
 }
 ```
 ![](output/1.png)
+
 Penjelasan :
 Program ini adalah program sederhana yang digunakan buat mencari berat kelinci paling ringan dan paling berat dari sejumlah data yang diinput pengguna. Jadi, pertama-tama program ini minta jumlah kelinci yang mau dicek beratnya. Setelah itu, user disuruh masukin berat tiap kelinci satu per satu. Nah, setelah semua berat dimasukin, program akan nyari nilai terkecil dan terbesar dari data berat yang udah dikumpulin tadi. Terakhir, dia bakal nampilin berat terkecil dan terbesar itu ke layar.
 
@@ -47,7 +48,9 @@ Algoritma yang digunakan:
 - Inisialisasi nilai minimum dan maksimum dengan elemen pertama array.
 - Lakukan perulangan dari elemen kedua sampai akhir: bandingkan dan perbarui nilai minimum atau maksimum jika ditemukan nilai yang lebih kecil atau besar.
 - Tampilkan hasil akhir berupa nilai minimum dan maksimum.
+  
 ### Soal 2
+
 ```go
 package main
 
@@ -89,6 +92,7 @@ func main() {
 }
 ```
 ![](output/2.png)
+
 Penjelasan :
 Program ini adalah program buat ngitung total dan rata-rata berat ikan per wadah. Jadi, user disuruh masukin berapa jumlah ikan dan kapasitas maksimal tiap wadah (berapa ekor ikan yang muat di satu wadah). Terus, user masukin berat dari tiap ikan satu-satu. Program bakal otomatis bagi ikan-ikan itu ke dalam wadah berdasarkan kapasitas, ngitung total berat di tiap wadah, terus ditampilin satu-satu. Di akhir, program juga ngitung rata-rata berat per wadah dan nampilin hasilnya. Cocok nih kalau lagi bantuin bagi hasil tangkapan ikan ke beberapa ember!
 
@@ -100,7 +104,9 @@ Algoritma yang digunakan:
 - Iterasi array ikan dan isi wadah satu per satu sambil menjumlahkan berat di tiap wadah.
 - Setelah semua wadah terisi, tampilkan total berat masing-masing wadah.
 - Hitung rata-rata berat per wadah dan tampilkan.
+  
 ### Soal 3
+
 ```go
 package main
 
@@ -151,6 +157,7 @@ func main() {
 }
 ```
 ![](output/3.png)
+
 Penjelasan :
 Program ini adalah program buat ngolah data berat badan balita. Jadi, user diminta masukin jumlah data berat balita yang mau dianalisis, lalu beratnya dimasukin satu per satu. Program ini punya dua fungsi bantu: satu buat nyari berat minimum dan maksimum, dan satu lagi buat ngitung rata-rata dari semua berat. Setelah proses selesai, hasilnya langsung ditampilkan, mulai dari berat balita terendah, tertinggi, sampai rata-ratanya. 
 
