@@ -306,5 +306,6 @@ func main() {
 }
 ```
 ![](output/4.png)
+
 Penjelasan :
 Program ini adalah program yang memproses input berupa teks dan mengecek apakah teks tersebut adalah palindrome atau bukan. Input-nya dimasukkan huruf per huruf (tanpa spasi), dan akan berhenti ketika pengguna mengetik titik. Semua huruf disimpan dalam array khusus bertipe rune. Setelah itu, program menampilkan teks versi kebalikannya. Kemudian, program membandingkan antara versi asli dan versi balik untuk menentukan apakah keduanya sama. Kalau sama, berarti input itu palindrome, kalau beda berarti bukan. Misalnya, kalau kita masukkan “senang”, maka setelah dibalik jadi “gnanes”, jelas beda, jadi bukan palindrome. Tapi kalau kita masukkan “katak”, hasil balikannya juga “katak”, jadi program akan kasih tahu bahwa itu palindrome. 
