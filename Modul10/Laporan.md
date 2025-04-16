@@ -1,6 +1,8 @@
 <h1 style="text-align: center;">Laporan Praktikum Modul 10<br>Pencarian Nilai Ekstrim Pada Himpunan Data</h1>
 <p style="text-align: center;">Fa'iq Jagadhita Hadiana - 103112430015</p>
+
 ### Soal 1
+
 ```go
 package main
 
